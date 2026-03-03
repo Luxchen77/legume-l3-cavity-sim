@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(python3:*)",
-      "Bash(conda run:*)"
+      "Bash(conda run:*)",
+      "Bash(pip show legume)"
     ]
   }
 }
