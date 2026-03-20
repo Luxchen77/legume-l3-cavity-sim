@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python3:*)",
       "Bash(conda run:*)",
-      "Bash(pip show legume)"
+      "Bash(pip show legume)",
+      "Bash(/home/jonah/miniconda3/envs/photonics/bin/pip list:*)",
+      "Bash(du -sh /home/jonah/photonics/data/*)"
     ]
   }
 }
