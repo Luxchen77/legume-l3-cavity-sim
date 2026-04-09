@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /home/jonah/photonics -type f -name *.ipynb)",
+      "Bash(grep -rn \"V_eff\\\\|Veff\\\\|mode.vol\\\\|modal.vol\" /home/jonah/miniconda3/envs/photonics/lib/python3.12/site-packages/legume/ --include=*.py)",
+      "Bash(grep -l \"sum\\\\|integral\\\\|quad\\\\|volume\" *.ipynb)",
+      "Bash(grep -n \"volume\\\\|V_eff\\\\|Veff\\\\|mode.vol\" /home/jonah/photonics/*.ipynb)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Bash(done)",
+      "Read(//home/jonah/miniconda3/envs/photonics/lib/python3.12/site-packages/legume/**)",
+      "Bash(grep -r Ellipse /home/jonah/photonics/*.ipynb)",
+      "Bash(find /home/jonah/miniconda3/envs/photonics/lib/python3.12/site-packages/legume/ -name \"__pycache__\" -type d -exec rm -rf {} +)",
+      "Read(//home/jonah/.cache/uv/archive-v0/dE10ExZZ2zLl4acd2x8tA/legume/**)",
+      "Read(//home/jonah/.claude/projects/**)",
+      "Read(//home/jonah/.claude/**)",
+      "Bash(ls /home/jonah/photonics/*.png)"
+    ],
+    "additionalDirectories": [
+      "/home/jonah/miniconda3/envs/photonics/lib/python3.12/site-packages/legume/phc",
+      "/home/jonah/.cache/uv/archive-v0/dE10ExZZ2zLl4acd2x8tA/legume/phc"
+    ]
+  }
+}
