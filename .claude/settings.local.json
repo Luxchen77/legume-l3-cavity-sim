@@ -5,7 +5,8 @@
       "Bash(conda run:*)",
       "Bash(pip show legume)",
       "Bash(/home/jonah/miniconda3/envs/photonics/bin/pip list:*)",
-      "Bash(du -sh /home/jonah/photonics/data/*)"
+      "Bash(du -sh /home/jonah/photonics/data/*)",
+      "Bash(jupyter nbconvert:*)"
     ]
   }
 }
